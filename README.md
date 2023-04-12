@@ -1,4 +1,4 @@
-# OpenX_Machine_Learning_Intern_2023
+# ML_Task
 ![Image](Tasks.png "Tasks")
 
 
