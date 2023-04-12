@@ -1,5 +1,5 @@
 # ML_Task
-![Image](Tasks.png "Tasks")
+![Image](tasks.png "Tasks")
 
 
 # OPTIONAL TASK
