@@ -221,6 +221,8 @@ plt.legend(['Train', 'Val'], loc='upper left')
 plt.show()
 
 # %%
+
+''' 6. Create a very simple REST API that will serve your models '''
 from flask import Flask, request, jsonify
 import joblib
 
@@ -239,7 +241,7 @@ def predict():
     elif model_choice == 'rf_clf':
         model = joblib.load('rf_clf_model.pkl')
     elif model_choice == 'neural_network':
-        model = joblib.load('NN.pkl')
+        model = joblib.load('NN_model.pkl')
     else:
         return jsonify({'error': 'Invalid model choice'})
     
